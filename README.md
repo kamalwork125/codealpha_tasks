@@ -84,6 +84,82 @@ Here are some sample charts generated in this project:
 - Correlation shows weak/strong relationship between ordered quantity and ratings.  
 - City-wise analysis revealed top-performing markets.  
 
+# 🚢 Titanic Survival EDA Project  
 
-   git clone https://github.com/your-username/ecommerce-visualization.git
- 
+This project is an **Exploratory Data Analysis (EDA)** on the famous Titanic dataset.  
+The goal is to explore the dataset, clean the data, visualize patterns, and extract meaningful insights about passenger survival.  
+## 📂 Dataset  
+The dataset contains information about passengers aboard the Titanic, such as:  
+- PassengerId  
+- Survived (0 = No, 1 = Yes)  
+- Pclass (Passenger class)  
+- Name  
+- Sex  
+- Age  
+- SibSp (Number of siblings/spouses aboard)  
+- Parch (Number of parents/children aboard)  
+- Ticket  
+- Fare  
+- Cabin  
+- Embarked (Port of Embarkation: C, Q, S)  
+## 🔧 Tools & Libraries Used  
+- Python 🐍  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+## 📊 EDA Process  
+1. **Data Understanding**  
+   - `head()`, `info()`, `describe()`, `columns`  
+   - Checked missing values  
+2. **Data Cleaning**  
+   - Identified missing values in Age, Cabin, and Embarked  
+   - Dropped or imputed values (Age median, Embarked mode, Cabin ignored)  
+3. **Univariate Analysis**  
+   - Survival count  
+   - Passenger Class distribution  
+   - Age distribution  
+4. **Bivariate/Multivariate Analysis**  
+   - Survival by Gender  
+   - Survival by Passenger Class  
+   - Survival by Embarked location  
+   - Correlation Heatmap (Fare, Age, Pclass)  
+5. **Visualizations**  
+   - Countplots  
+   - Histograms  
+   - Boxplots  
+   - Heatmap  
+## 🔍 Key Insights  
+
+- **Gender**: Females had a much higher survival rate than males.  
+- **Class**: Passengers in 1st class were more likely to survive compared to 2nd and 3rd class.  
+- **Age**: Children had higher survival chances compared to middle-aged adults.  
+- **Embarkation**: Passengers who embarked from Cherbourg (C) had better survival rates.  
+## 📈 Visualizations  
+Here are some of the visualizations created:  
+- Survival Count  
+- Survival by Gender  
+- Age Distribution  
+- Survival by Class  
+- Correlation Heatmap
+  <img width="686" height="848" alt="image" src="https://github.com/user-attachments/assets/23e6f0ca-4bde-40b7-8e50-497cdbe2bb60" />
+
+## 📌 Conclusion  
+
+This EDA project gave me hands-on experience with:  
+✔️ Data Cleaning  
+✔️ Exploratory Data Analysis  
+✔️ Data Visualization  
+
+The Titanic dataset is a classic beginner-friendly dataset that provides deep insights into survival factors during the tragedy.  
+
+---
+
+## 🚀 Next Steps  
+
+- Apply Machine Learning models (Logistic Regression, Random Forest) to predict survival.  
+- Perform feature engineering to improve prediction accuracy.  
+
+---
+
+
+
