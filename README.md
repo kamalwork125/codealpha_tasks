@@ -160,6 +160,23 @@ The Titanic dataset is a classic beginner-friendly dataset that provides deep in
 - Perform feature engineering to improve prediction accuracy.  
 
 ---
+Sentiment Analysis of [Amazon reviews] 📝
+Project Overview
+
+This project performs Sentiment Analysis on textual data to determine whether the sentiment expressed is Positive, Negative, or Neutral. The main goal is to explore the dataset, preprocess text, and visualize insights about sentiments in the data.
+Objectives:
+
+Clean and preprocess textual data.
+Analyze sentiment distribution.
+Visualize trends and patterns in the dataset.
+Build insights for business or social media analytics.
+<img width="896" height="701" alt="image" src="https://github.com/user-attachments/assets/2fdd8174-3f4b-48d5-a89b-8d6f9a55dbff" />
+<img width="1471" height="784" alt="Screenshot 2025-09-07 121238" src="https://github.com/user-attachments/assets/f3139a9e-69e3-42cb-8137-7616f647e8c5" />
+<img width="1465" height="770" alt="Screenshot 2025-09-07 121249" src="https://github.com/user-attachments/assets/5fc83da5-490c-4553-bb26-9482163cd8a0" />
+<img width="683" height="198" alt="Screenshot 2025-09-07 121258" src="https://github.com/user-attachments/assets/a9738387-be08-4a98-8e24-b4d5f254334e" />
+
+
+
 
 
 
